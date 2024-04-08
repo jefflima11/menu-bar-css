@@ -1,0 +1,53 @@
+@import url(./resets.css);
+
+body {
+    /* background: rgba(151, 105, 65, 0.332); */
+    /* background: linear-gradient(rgba(255, 0, 0, 0.633),rgb(235, 181, 181),rgb(235, 181, 181)); */
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(30deg, rgba(39, 255, 136, 0.722), rgba(153, 253, 211, 0.859), rgba(14, 108, 62, 0.927));
+    /* margin: 100vh; */
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90vw;
+    height: 75px;
+    margin: 5px auto ;
+    background: rgba(0, 0, 0, 0.159);
+}
+
+nav ul{
+    list-style: none;
+    /* background-color: red; */
+    text-align: center;
+    height: 100%;
+}
+
+li {
+    background-color: rgba(255, 0, 0, 0.33);
+    height: 100%;
+    width: 350px;
+    margin: ;
+    
+}
+
+a {
+    text-decoration: none;
+    background-color: rgba(0, 255, 255, 0.543);
+    /* padding: 10px; */
+    width: 70px;
+    height: 20px;
+    margin: auto;
+    /* text-align: center; */
+    
+}
+
+.sub-menu-n1 {
+    display: none;
+}
+
+.sub-menu-n0:hover .sub-menu-n1{
+    display: block;
+    margin: 10px;
+}
